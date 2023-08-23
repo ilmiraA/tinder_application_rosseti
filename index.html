@@ -38,35 +38,8 @@
         dots[slideIndex-1].className += " active";
         }
     </script>
-    <p id="send">Запрос</p>
+    <p id="send">Заявка</p>
     <div class="LogIn">
-        <div class="slideshow-container">
-
-            <div class="mySlides fade">
-                <p class="h1"><b>Выдача электроэнергии в сеть</b></p>
-                <p style="font-size: 95%;">Выдача объема электроэнергии в сеть в обмен на денежную компенсацию. Объем выдаваемой энергии рассчитывается ежедневно и согласовывается с Вами.</p>
-            </div>
-        
-            <div class="mySlides fade" id="slides">
-                <p class="h1"><b>Переход пользователя на свои источники энергии</b></p>
-                <p style="font-size: 95%;">Переход на свою систему энергоснабжения в прописанное время, в обмен на компенсацию. Срок перехода на собственное энергоснабжение согласуется с Вами.</p>
-            </div>
-        
-            <div class="mySlides fade" id="slides">
-                <p class="h1"><b>Внеплановая выдача электроэнергии</b></p>
-                <p style="font-size: 95%;">Срочная выдача электроэнергии в сеть, в моменты непредвиденных обстоятельств. За оказание услуги предусмотрена денежная компенсация.</p>
-            </div>
-        
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
         <div class="div">
             <p class="ysl">Услуга</p>
             <select id="servece">
@@ -74,6 +47,21 @@
                 <option disabled="disabled">Переход пользователя на свои источники энергии</option>
                 <optioN disabled="disabled">Внеплановая выдача электроэнергии</option>
             </select>
+        </div>
+        <div class="div">
+            <p>Описание услуги</p>
+        </div>
+        <div class="div">
+            <p>Период действия</p>
+            <input type="text">
+        </div>
+        <div class="div">
+            <p>Метоб рассчитывания выдаваемой мощности</p>
+            <input type="text">
+        </div>
+        <div class="div">
+            <p>Прогнозируемая выплата</p>
+            <input type="text">
         </div>
     </div>
 </body>
