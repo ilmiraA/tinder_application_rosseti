@@ -19,7 +19,7 @@ html{
 
 .LogIn{
     width: 90%;
-    height: 350px;
+    height: 400px;
     border-radius: 10px;
     border-style: solid;
     border-color: #00457a;
@@ -57,7 +57,7 @@ p{
 
 input{
     border-color: white;
-    height: 50%;
+    height: 40px;
     width: 100%;
     border-style: none;
     margin-bottom: 3%;
